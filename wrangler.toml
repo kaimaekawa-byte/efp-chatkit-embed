@@ -1,4 +1,4 @@
-name = "chatkit-token"
+name = "efp-chatkit-embed"
 main = "worker/worker.js"
 compatibility_date = "2024-11-01"
 
