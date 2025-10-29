@@ -12,7 +12,7 @@
     </div>
     <script>
       async function getClientSecret() {
-        const res = await fetch("https://<your-worker-subdomain>.workers.dev/api/chatkit/session", {
+        const res = await fetch("https://efp-chatkit-embed.kai-maekawa.workers.dev/api/chatkit/session", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
