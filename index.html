@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="https://cdn.platform.openai.com/deployments/chatkit/chatkit.js" async></script>
+    <style>html,body{height:100%;margin:0} #wrap{height:100vh;}</style>
+  </head>
+  <body>
+    <div id="wrap">
+      <openai-chatkit id="ck" style="display:block;width:100%;height:100%"></openai-chatkit>
+    </div>
+    <script>
+      window.addEventListener('load', () => {
+        const chat = document.getElementById('ck');
+        chat.setOptions({
+          api: {
+            workflow: "wf_69018a6adb788190b3f0a1023ee8f1640a7d5f6cb4dd077f",
+            version: "2"
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
